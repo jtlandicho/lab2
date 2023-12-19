@@ -1,0 +1,60 @@
+body {
+	background-color: #323437;
+}
+
+h1 {
+	font-family:Tahoma, sans-serif;
+	color: white;
+	padding:10px;
+	position:relative;
+  	top: 40px;
+  	left: 300px;
+  	font-size: 30px;
+}
+h2{
+	color: #d1d0c5;
+	font-family:Tahoma, sans-serif;
+	padding:10px;
+	position:relative;
+  	top: 40px;
+  	left: 300px;
+}
+.mypicture {
+	position:relative;
+  	top: 40px;
+  	left: 800px;
+  	font-size: 30px;
+}
+h3 {
+	color: #d1d0c5;
+	font-family:Tahoma, sans-serif;
+	padding:10px;
+	position:relative;
+  	top: 40px;
+  	left: 300px;
+}
+p {
+	color: #d1d0c5;
+	font-family:Tahoma, sans-serif;
+	padding:10px;
+	position:relative;
+  	top: 40px;
+  	left: 300px;
+  	font-size: 15px;
+}
+.familypic{
+	position:relative;
+  	left: 300px;
+}
+.affsuzuki{
+	position:relative;
+  	top: 40px;
+  	left: 800px;
+
+}
+.familyp{
+	position:relative;
+  	top: 0px;
+  	left: 300px;
+  	font-size: 15px;
+}
