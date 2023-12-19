@@ -1,60 +1,82 @@
 body {
-	background-color: #323437;
+    background-color: #323437;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 h1 {
-	font-family:Tahoma, sans-serif;
-	color: white;
-	padding:10px;
-	position:relative;
-  	top: 40px;
-  	left: 300px;
-  	font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    color: #e2b714;
+    padding: 10px;
+    font-size: 30px;
 }
-h2{
-	color: #d1d0c5;
-	font-family:Tahoma, sans-serif;
-	padding:10px;
-	position:relative;
-  	top: 40px;
-  	left: 300px;
-}
-.mypicture {
-	position:relative;
-  	top: 40px;
-  	left: 800px;
-  	font-size: 30px;
-}
-h3 {
-	color: #d1d0c5;
-	font-family:Tahoma, sans-serif;
-	padding:10px;
-	position:relative;
-  	top: 40px;
-  	left: 300px;
-}
-p {
-	color: #d1d0c5;
-	font-family:Tahoma, sans-serif;
-	padding:10px;
-	position:relative;
-  	top: 40px;
-  	left: 300px;
-  	font-size: 15px;
-}
-.familypic{
-	position:relative;
-  	left: 300px;
-}
-.affsuzuki{
-	position:relative;
-  	top: 40px;
-  	left: 800px;
 
+.PersonalInfo,
+.SchoolInfo,
+.InterestingAspects {
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 25%;
+    padding: 10px;
 }
-.familyp{
-	position:relative;
-  	top: 0px;
-  	left: 300px;
-  	font-size: 15px;
+
+.PicturesaboutMyself {
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 30%;
+    padding: 10px;
+}
+hr {
+    margin-top: 20px; /* Adjust as needed */
+    width: 50%;
+}
+
+.mypicture,
+.affsuzuki {
+    border-style: outset;
+    border-color: #205461;
+    padding: 10px;
+    font-size: 30px;
+}
+
+p {
+    color: #d1d0c5;
+    font-family: Tahoma, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) */
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+.familypic,
+.affsuzuki {
+    font-size: 30px;
+}
+
+.familyp {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.affsuzukip {
+    margin-top: 150px;
+    text-align: center;
+}
+
+/* Additional styling if needed */
+.container1,
+.container2 {
+    margin-top: 20px;
+}
+
+.container2 {
+    margin-bottom: 20px;
 }
