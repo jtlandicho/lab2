@@ -3,7 +3,9 @@ body {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     overflow-x: hidden; /* Hide horizontal scrollbar */
+
 }
+
 
 h1 {
     font-family: Tahoma, sans-serif;
@@ -12,34 +14,52 @@ h1 {
     font-size: 30px;
 }
 
-.PersonalInfo,
-.SchoolInfo,
+
 .InterestingAspects {
     color: #e2b714;
     font-family: Tahoma, sans-serif;
     border-style: groove;
     width: 25%;
     padding: 10px;
+    text-align: center;
 }
 
+.PersonalInfo,
+.SchoolInfo{
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
 .PicturesaboutMyself {
     color: #e2b714;
     font-family: Tahoma, sans-serif;
     border-style: groove;
     width: 30%;
     padding: 10px;
+    text-align: center;
+
 }
 hr {
     margin-top: 20px; /* Adjust as needed */
-    width: 50%;
 }
 
-.mypicture,
 .affsuzuki {
-    border-style: outset;
-    border-color: #205461;
     padding: 10px;
     font-size: 30px;
+}
+
+.mypicture{
+    display: block;
+    border-style: outset;
+    border-color: #205461;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 p {
@@ -79,4 +99,16 @@ p {
 
 .container2 {
     margin-bottom: 20px;
+}
+.meetjohn{
+    text-align:center;
+}
+
+footer{
+    background-color:#e2b714 ;
+    opacity: 80%;
+    padding: 50px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: ghostwhite;
 }
