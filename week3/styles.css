@@ -30,7 +30,7 @@ h1 {
     font-family: Tahoma, sans-serif;
     border-style: groove;
     width: 15%;
-    padding: 10px;
+    padding: 10px;      
     text-align: center;
 }
 .PicturesaboutMyself {
@@ -44,6 +44,7 @@ h1 {
 }
 hr {
     margin-top: 20px; /* Adjust as needed */
+    width: 80%;
 }
 
 .affsuzuki {
@@ -53,7 +54,7 @@ hr {
 
 .mypicture{
     display: block;
-    border-style: outset;
+    border-radius: 20px;
     border-color: #205461;
     font-size: 30px;
     margin: auto;
@@ -65,30 +66,46 @@ hr {
 p {
     color: #d1d0c5;
     font-family: Tahoma, sans-serif;
-    padding: 10px;
     font-size: 15px;
+    margin-left: 35%;
+}
+
+.familyp,
+.affsuzukip {
+    color: #d1d0c5;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 45px;
 }
 
 .container1,
 .container2 {
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) */
-    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 
-.familypic,
+.familypic {
+    margin-left: 300px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
 .affsuzuki {
-    font-size: 30px;
+    margin-left: 330px;
+    padding: 10px;      
+    border-radius: 30px;
 }
 
 .familyp {
-    margin-top: 90px;
-    text-align: center;
+    margin-top: 100px;
+    margin-left: 10px; /* Adjust the margin as needed */
 }
 
 .affsuzukip {
     margin-top: 150px;
-    text-align: center;
+    margin-left: 10px; /* Adjust the margin as needed */
 }
 
 /* Additional styling if needed */
@@ -106,9 +123,22 @@ p {
 
 footer{
     background-color:#e2b714 ;
-    opacity: 80%;
-    padding: 50px;
+    opacity: 80%; padding:  ;
+    padding: 0px;
     text-align: center;
     font-family: Tahoma, sans-serif;
     color: ghostwhite;
+    height: 150px;
+}
+h3{
+    padding-top: 20px;
+    color:black;
+    font-weight: lighter;
+    font-family: Tahoma, sans-serif;
+}
+
+.PersonalInformation, .SchoolInformation, .OtherInterestingAspects, .Picturesaboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
