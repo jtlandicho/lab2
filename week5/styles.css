@@ -1,0 +1,144 @@
+body {
+    background-color: #323437;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+}
+
+
+h1 {
+    font-family: Tahoma, sans-serif;
+    color: #e2b714;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.InterestingAspects {
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
+.PersonalInfo,
+.SchoolInfo{
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 15%;
+    padding: 10px;      
+    text-align: center;
+}
+.PicturesaboutMyself {
+    color: #e2b714;
+    font-family: Tahoma, sans-serif;
+    border-style: groove;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+
+}
+hr {
+    margin-top: 20px; /* Adjust as needed */
+    width: 80%;
+}
+
+.affsuzuki {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.mypicture{
+    display: block;
+    border-radius: 20px;
+    border-color: #205461;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    color: #d1d0c5;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 35%;
+}
+
+.familyp,
+.affsuzukip {
+    color: #d1d0c5;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left: 45px;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.familypic {
+    margin-left: 300px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.affsuzuki {
+    margin-left: 330px;
+    padding: 10px;      
+    border-radius: 30px;
+}
+
+.familyp {
+    margin-top: 100px;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.affsuzukip {
+    margin-top: 150px;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+/* Additional styling if needed */
+.container1,
+.container2 {
+    margin-top: 20px;
+}
+
+.container2 {
+    margin-bottom: 20px;
+}
+.meetjohn{
+    text-align:center;
+}
+
+footer{
+    background-color:#e2b714 ;
+    opacity: 80%; padding:  ;
+    padding: 0px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    color: ghostwhite;
+    height: 150px;
+}
+h3{
+    padding-top: 20px;
+    color:black;
+    font-weight: lighter;
+    font-family: Tahoma, sans-serif;
+}
+
+.PersonalInformation, .SchoolInformation, .OtherInterestingAspects, .Picturesaboutme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
