@@ -149,6 +149,32 @@ h3{
     margin: 10px auto;
     margin-left: 20px;
 }
-#ITExperience{
-    margin-top: 0px auto;
+
+#content {
+    display: none;
+}
+
+#button{
+    background-color: #e2b714; 
+    border: none;
+    color: black;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 830px;
+    font-family: Tahoma, sans-serif;
+    shadow
+}
+
+#button:hover {background-color: gray}
+ 
+#button:active {
+  background-color: gray;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#content{
+    margin: 0 auto;
 }
