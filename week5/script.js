@@ -38,3 +38,15 @@ function myFunction(a, b) {
   return a + b;
 };
 
+class Birthday {
+  constructor(month, day, year) {
+    this.month = month;
+    this.day = day;
+    this.year = year;
+  }
+}
+
+
+const myBirthday = new Birthday("May", 21, 2004);
+document.getElementById("bday").innerHTML= " " + myBirthday.month + " " + myBirthday.day + "," + " " + myBirthday.year;
+
