@@ -52,3 +52,7 @@ document.getElementById("bday").innerHTML= " " + myBirthday.month + " " + myBirt
 
 // JavaScript HTML DOM 
 document.getElementById("hobbies").innerHTML = "Watching movies and football games";
+
+// JavaScript Browser DOM
+document.getElementById("pagepath").innerHTML =
+"The page path is: " + window.location.pathname;

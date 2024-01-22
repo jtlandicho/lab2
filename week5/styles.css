@@ -128,7 +128,7 @@ footer{
     text-align: center;
     font-family: Tahoma, sans-serif;
     color: ghostwhite;
-    height: 150px;
+    height: 180px;
 }
 h3{
     padding-top: 20px;
@@ -175,4 +175,9 @@ h3{
 }
 #content{
     margin: 0 auto;
+}
+#pagepath{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
