@@ -30,3 +30,11 @@ const person = {
 };
 
 document.getElementById("FullName").innerHTML = person.fullName();
+
+let c = myFunction(1, 0);
+document.getElementById("one").innerHTML = c;
+
+function myFunction(a, b) {
+  return a + b;
+};
+
