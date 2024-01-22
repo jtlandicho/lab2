@@ -50,3 +50,5 @@ class Birthday {
 const myBirthday = new Birthday("May", 21, 2004);
 document.getElementById("bday").innerHTML= " " + myBirthday.month + " " + myBirthday.day + "," + " " + myBirthday.year;
 
+// JavaScript HTML DOM 
+document.getElementById("hobbies").innerHTML = "Watching movies and football games";
