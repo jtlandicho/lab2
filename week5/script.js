@@ -1,5 +1,5 @@
 //My first comment in JavaScript
-const d = new Date("2023-01-13");
+const d = new Date("2024-01-13");
 document.getElementById("dateandtime").innerHTML = d;
 
 let itexperiencetext = "I also play variety of games, whether online or offline."
@@ -13,7 +13,6 @@ document.getElementById("age").innerHTML = age;
 var clickbutton = document.getElementById("button");
 var hiddenContent = document.getElementById("content");
 
-    // Add a click event listener to the button
 clickbutton.addEventListener("click", function() {
 	if (hiddenContent.style.display === "none"){
 		hiddenContent.style.display = "block"
@@ -21,3 +20,13 @@ clickbutton.addEventListener("click", function() {
 		hiddenContent.style.display = "none"
 	}
 });
+
+const person = {
+  firstName: "John Jorel",
+  lastName: "Landicho",
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+document.getElementById("FullName").innerHTML = person.fullName();
