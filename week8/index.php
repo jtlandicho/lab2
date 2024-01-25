@@ -123,11 +123,31 @@ family where I can support the needs <br> and wants of every member of my family
 	echo $one * $two;
 
 	echo "<br>";
+	echo "<br>";
 
 	// Data Types
 	var_dump($one);
 	echo "<br>";
-	var_dump($greeting1)
+	var_dump($greeting1);
+
+	echo "<br>";
+	echo "<br>";
+
+	//Strings
+	$characters = "The characters in this statement (including the spaces) are: ";
+	echo $characters;
+	echo strlen($characters);
+
+	echo "<br>";
+	echo "<br>";
+
+	// Operators & Math
+	echo 0 . " ".  150 . " " . 30 . " " . 20 . " " .  -8 . " " .  -200;
+
+	echo "<br>";
+
+	echo "The highest number in this list is: ";
+	echo(max(0, 150, 30, 20, -8, -200));
 
 	?>
 </footer>
