@@ -122,6 +122,13 @@ family where I can support the needs <br> and wants of every member of my family
 	$two = 2;
 	echo $one * $two;
 
+	echo "<br>";
+
+	// Data Types
+	var_dump($one);
+	echo "<br>";
+	var_dump($greeting1)
+
 	?>
 </footer>
 
