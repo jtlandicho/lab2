@@ -112,8 +112,15 @@ family where I can support the needs <br> and wants of every member of my family
 	<?php
 	// My first PHP comment
 	$greeting1 = "This is the first time";
-	$greeting2 = "I have written a variable on PHP";
+	$greeting2 = "I have written a variable on PHP"; 
 	echo $greeting1 ." ". $greeting2;
+
+
+	// Echo/Print
+	echo "<br>";
+	$one = 1;
+	$two = 2;
+	echo $one * $two;
 
 	?>
 </footer>
