@@ -128,8 +128,6 @@ $username = "webprogmi221";
 $password = "g_6bCitLu.ljMK*m";
 $dbname = "webprogmi221";
 
-
-
 $servername = "localhost";
 $username = "root";
 $password = "";
